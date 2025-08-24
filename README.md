@@ -3,45 +3,63 @@
 
 ## Introduction
 
-An Electronic Health Record (EHR) is an electronic version of a patient’s medical history that is maintained by a hospital or other organization over time. It includes all key administrative clinical data relevant to the patient along with all previous reports, X-rays, laboratory data, prescriptions and other forms of data describing past medical history. EHRs aren’t the boon to healthcare that everyone expected. They were introduced to make it easier for doctors to record and track patient’s data, improve care and the most important, support interoperability between multiple healthcare organizations.
+Data is the input for various artificial intelligence (AI) algorithms to mine valuable features, yet data in Internet is scattered everywhere and controlled by different stakeholders who cannot believe in each other, and usage of the data in complex cyberspace is difficult to authorize or to validate. As a result, it is very difficult to enable data sharing in cyberspace for the real big data, as well as a real powerful AI
 
-The biggest challenges are security and interoperability, which makes maintaining these records a very tedious task. Further, it is a struggle for doctors to decode important information that the patient’s previous provider recorded. Thus, it is time to develop a new system based on effectively secure decentralized blockchain and a powerful AI algorithm to ease the processes involved in healthcare.
+## Purpose of the Project
 
-## Objective of the Project
+Now a days all service providers such as online social networks or cloud storage will store some type of users data and they can sale that data to other organization for their own benefits and user has no control on his data as that data is saved on third party servers. To overcome from above issue I have described a concept called Private Data Centres (PDC) with Blockchain and AI technique to provide security to user’s data. 
 
-The objective of our project is the evolution of Electronic Health Records to give healthcare providers access to various benefits for providing patients with the best care. Following are the benefits our system aims at:
+## Scope :
 
-* Collaboration Among Healthcare Organization-
-With our system, providers across multiple specialties and different geographical locations can collaborate with great confidence for better treatment of patients. Blockchain makes this possible by giving the healthcare industry one consistent, standard database of real-time patient data to work with.
+In this technique 3 functions will work which describe below:
+### Blockchain: 
 
-* Safe Data Exchanges
-One of the biggest challenges is of sharing data securely in compliance with data safety regulations. Also due to patients not having an option to choose what they want to share they deny access to all of their protected health information to avoid any privacy related issues. Blockchain makes the data safe and also provides comprehensive data sharing options, allowing patients to unlock only the data that their healthcare providers need and keeping rest of the data private and secure.
+Blockchain-based data sharing with ownership guarantee, which enables trusted data sharing in the large-scale environment to form real big data. In this technique users can define access control which means which user has permission to access data and which user cannot access data and Blockchain object will be generate on that access data and allow only those users to access data which has permissions.
 
-* Valuable Insights for Better Care 
-One of the complications of EHRs is the huge amount of data that is created every day. It can be a very tedious task for doctors to go through this vast data every time and might also lead to missing important data in between. AI programs in our system can help ease the physician’s work by extracting the most valuable information on analysis of the patient’s medical history. 
+### Artificial Intelligence: 
 
-## Motivation :
+AI-based secure computing platform to produce more intelligent security rules, which helps to construct a more trusted cyberspace. AI work similar to human brain and responsible to execute logic to check whether requesting user has permission to access shared data.
 
-We are living in an era where we are generating health data at an unprecedented rate, and storing this data on paper is technically impossible. This led to the introduction of Electronic Health Records (EHRs) in the previous few years. However, its benefits have never been properly utilized by healthcare providers due to lack of security and interoperability. The data stored in hospitals and other related organization is vulnerable to various security threats such as single point of failure and typical DDos attacks. Further it is needless to store the same patient’s records at different hospitals when it is possible to have one common database. Security being one of the aspects of our motivation, the other is getting relevant information out of patient’s vast medical history in less time. A lot of time is wasted by a doctor to go through the patient’s entire health records, which instead could have been utilized for better treatment of a patient. Thus, there is a need for a decentralized system to store medical records which can be secure as well as insightful helping the healthcare providers efficiently treat and care for a patient.
+### Rewards: 
+
+In this technique all users who is sharing the data will earn rewards point upon any user access his data. trusted value-exchange mechanism for purchasing security service, providing a way for participants to gain economic rewards when giving out their data or service, which promotes the data sharing and thus achieves better performance of AI.
 
 ## Existing System vs Proposed System
 
 ### Existing System
 
-The existing system utilized by healthcare providers to store patient data is an electronic system in which health records are created and managed in digital formats. The health records can consist of medical history including operations, hospitalizations, doctor’s prescriptions, medications, past diagnostic follow ups, lab reports or results and other administration related documents. This system is highly efficient over the former paper-based records which were ineffective and unreliable. However, the present system lacks on security and involves a lot of redundant data, eventually making it a very tedious task for doctors to go through them every time. 
+In existing systems, lack of ability to effectively manage data makes it very difficult for an individual to control the potential risks associated with the collected data. For example, once the data has been collected by a third party, the insufficiency of access to this data hinders an individual to understand or manage the risks related to the collected data from him. Meanwhile, the absence of immutable recording for the usage of data increases the risks to abuse them.
 
 ### Proposed System
 
-We propose on building an AI-Blockchain Electronic Health Records system on a web application using Flask web framework. The application will be integrated with Etherium based blockchain to make the patient’s data secure using reliable transactions. In our healthcare system a transaction equates to patients’ hospital visits, administration documents, diagnoses reports, treatment details, physician’s notes, laboratory results or reports, prescriptions, X-rays, outcomes etc. With our system, patients will have data sharing options. They now will have the right to choose what part of their medical history can be viewed by healthcare providers according to their need while keeping rest of the data private and secure. The system will also be powered by an AI algorithm based on machine learning and Natural Language Processing (NLP) to gain valuable insights and intuition from patient’s medical history. This model will be very useful for healthcare providers to treat their patients properly and efficiently. Blockchain being decentralized promotes interoperability across different hospitals or organizations and hence everyone can make use of one standard system to store health data.
+In this project, we propose the SecNet, which is a new networking paradigm focusing on secure data storing, sharing and computing instead of communicating. SecNet provides data ownership guaranteeing with the help of blockchain technologies, and AI-based secure computing platform as well as blockchain-based incentive mechanism, offering paradigm and incentives for data merging and more powerful AI to nally achieve better network security. 
 
-## Tech Stacks Used
+## Software Requirement
 
-* **IBM's Hyperledger Fabric Blockchain Platform** 
-* **MEVN Stack**
+ The software requirements are description of features and functionalities of the target system. Requirements convey the expectations of users from the software product. The requirements can be obvious or hidden, known or unknown, expected or unexpected from client’s point of view.
+• Operating system : Windows 7 or above
+• Coding Language : Python 3.7.2
+• Front-End : Django
+• Data Base : MySQL 5.6 
 
-## Social Impact of Project 
+## Hardware Requirement
 
-Our system aims at easing the work of healthcare providers by securing medical data as well as by gaining important and relevant information from a patient’s medical history. By saving a lot of time and resources wasted in maintaining health records otherwise, doctors can utilize this time for better and efficient treatment of patients. Great care of patients will ultimately lead to a healthier society with first class healthcare providers. Hence our project has a great positive social and environmental impact.
+To be used efficiently, all computer software needs certain hardware components or other software resources to be present on a computer. These prerequisites are known as system requirements and are often used as a guideline as opposed to an absolute rule.
+• Processor : Pentium –IV 1.1 GHz.
+• Hard Disk : 40 GB.
+• RAM : 4GB
+
+## System Architecture
+
+A system architecture is the conceptual model that defines the structure, behavior, and more views of a system. An architecture description is a formal description and representation of a system, organized in a way that supports reasoning about the structures and behaviors of the system. SecNet is build as an architecture for a more secure cyberspace, by integrating three key components:
+1) Blockchain-based data sharing with ownership guarantee.
+2) AI-based secure computing platform based on big data to produce intelligent and dynamic security rules.
+3) Trust value exchange mechanism for purchasing security services.
+
+<img width="730" height="289" alt="image" src="https://github.com/user-attachments/assets/8e0314e1-e0bf-4f53-ad55-08fa20fafc86" />
+
+## Conclusion
+In order to leverage AI and blockchain to fit the problem of abusing data, as well as empower AI with the help of blockchain for trusted data management in trust-less environment, we propose the SecNet, which is a new networking paradigm focusing on secure data storing, sharing and computing instead of communicating. SecNet provides data ownership guaranteeing with the help of blockchain technologies, and AI-based secure computing platform as well as blockchain-based incentive mechanism, offering paradigm and incentives for data merging and more powerful AI to finally achieve better network security. 
 
 ## How to run
 
@@ -117,33 +135,86 @@ npm run serve
 ### 1. Home Page
 <br>
 <p align="center">
-  <img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/ef0f8c38-0435-401e-8424-c4b71b0ea309" />
+  <img width="829" height="427" alt="image" src="https://github.com/user-attachments/assets/523cb847-e504-4db2-bd96-e86d83f0629e" />
 </p>
 <br>
+In above screen click on ‘New Patient Register Here’ link to get below screen.
 
 ### 2. Patient Home
 <br>
 <p align="center">
-  <img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/95da5d09-efe1-41d4-8b34-2664ef45688c" />
+  <img width="821" height="323" alt="image" src="https://github.com/user-attachments/assets/03dd02f8-5f99-4ee0-abd4-a9c0e7d506c6" />
 </p>
 <br>
+In above screen I am adding patient disease details and selecting ‘Hospital1’ to share my data and if you want to share with two hospitals then hold ‘CTRL’ key and select both hospitals to give permission. Now press ‘Create’ button to create profile.
 
-
-### 3. Doctor asking for permission from patient
 <br>
 <p align="center">
-  <img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/f2499210-ddc4-4984-8ed5-3ca839d043b8" />
+  <img width="787" height="484" alt="image" src="https://github.com/user-attachments/assets/d0076e29-094d-4879-bd26-a4b12846a838" />
 </p>
 <br>
+In above screen one patient is created with patient ID 1 and now Hospital 1 can login and search and access this patient data as patient has given permission to Hospital1.
 
-### 4. Patient grants permission to the doctor for the specific report
+
+### 3. Hospital Login
 <br>
 <p align="center">
-  <img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/027a217c-f5f1-4959-9d15-d78283d4dc57" />
+  <img width="788" height="400" alt="image" src="https://github.com/user-attachments/assets/318bfb9c-96ac-4506-846c-2364d2951164" />
 </p>
 <br>
+In above screen to login as Hospital1 click on ‘Hospital’ link to get above screen. Use ‘Hospital1’ as username and ‘Hospital1’ as password to login as Hospital1 and use Hospital2 to login as Hospital2. After login will get below screen.
 
-### 5. Doctor view reports and summary of the reports
+<br>
+<p align="center">
+  <img width="789" height="483" alt="image" src="https://github.com/user-attachments/assets/018a73ae-315f-4e36-9fdc-788528124af1" />
+</p>
+<br>
+In above screen click on ‘Access Patient Share Data’ link to search for patient details.
+
+### 4. Patient grants permission to the Hospital 1 
+<br>
+<p align="center">
+  <img width="778" height="449" alt="image" src="https://github.com/user-attachments/assets/4fa74fa6-3942-43a2-aea3-8d850adb79c2" />
+</p>
+<br>
+In above screen I want to search for all patients who are suffering from ‘pain’ and then click on ‘Access data’ button to get below screen.
+
+<br>
+<p align="center">
+  <img width="806" height="489" alt="image" src="https://github.com/user-attachments/assets/b621827c-49cb-4f54-a038-0c4210695298" />
+</p>
+<br>
+In above screen Hospital1 getting details of patient and Hospital2 not having permission so it will not get details. To see this logout and login as ‘Hospital2’
+
+### 5. Hospital 2 cannot view reports
+<br>
+<p align="center">
+  <img width="782" height="492" alt="image" src="https://github.com/user-attachments/assets/3c602907-639e-48f9-a25d-e87d45e62e7a" />
+</p>
+<br>
+In above screen ‘Hospital2’ is login, after login will get below screen
+
+<br>
+<p align="center">
+  <img width="796" height="506" alt="image" src="https://github.com/user-attachments/assets/0cc14d7b-2860-40b0-a160-f5dcbd21cd5f" />
+</p>
+<br>
+Now click on ‘Access Patient Share Data’ link and search for same pain disease
+
+<br>
+<p align="center">
+  <img width="807" height="510" alt="image" src="https://github.com/user-attachments/assets/272e1b20-b41b-4357-816f-f26e6af6a695" />
+</p>
+<br>
+For above query will get below result
+
+<br>
+<p align="center">
+  <img width="802" height="427" alt="image" src="https://github.com/user-attachments/assets/21001149-2a32-43bb-a4d5-61ff06a92631" />
+</p>
+<br>
+In above screen no patient details are showing as Hospital2 not having permission. So block chain allow only those users to access data who has permission. Now logout and login as patient by entering patient id in below screen.
+
 <br>
 <p align="center">
   <img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/388a6fb4-59db-41b1-99c8-26670d3fdac9" />
