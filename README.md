@@ -215,8 +215,3 @@ For above query will get below result
 <br>
 In above screen no patient details are showing as Hospital2 not having permission. So block chain allow only those users to access data who has permission. Now logout and login as patient by entering patient id in below screen.
 
-<br>
-<p align="center">
-  <img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/388a6fb4-59db-41b1-99c8-26670d3fdac9" />
-</p>
-<br>
