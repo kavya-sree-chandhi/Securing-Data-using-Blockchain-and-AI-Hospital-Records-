@@ -117,14 +117,14 @@ npm run serve
 ### 1. Home Page
 <br>
 <p align="center">
-  <img src="gif/Home.gif">
+  <img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/ef0f8c38-0435-401e-8424-c4b71b0ea309" />
 </p>
 <br>
 
 ### 2. Patient Home
 <br>
 <p align="center">
-  <img src="gif/Patient-Login-Without-Permission.gif">
+  <img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/95da5d09-efe1-41d4-8b34-2664ef45688c" />
 </p>
 <br>
 
@@ -132,20 +132,20 @@ npm run serve
 ### 3. Doctor asking for permission from patient
 <br>
 <p align="center">
-  <img src="gif/Doctor-Logins-Asks-Permission.gif">
+  <img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/f2499210-ddc4-4984-8ed5-3ca839d043b8" />
 </p>
 <br>
 
 ### 4. Patient grants permission to the doctor for the specific report
 <br>
 <p align="center">
-  <img src="gif/Patient-Logins-Grants-Permission.gif">
+  <img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/027a217c-f5f1-4959-9d15-d78283d4dc57" />
 </p>
 <br>
 
 ### 5. Doctor view reports and summary of the reports
 <br>
 <p align="center">
-  <img src="gif/Doctor-Downloads-Report.gif">
+  <img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/388a6fb4-59db-41b1-99c8-26670d3fdac9" />
 </p>
 <br>
